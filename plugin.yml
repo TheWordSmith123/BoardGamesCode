@@ -1,0 +1,11 @@
+main: water.of.cup.boardgames.BoardGames
+name: BoardGames
+version: '1.0.17'
+description: Adds board games to Minecraft.
+author: Nicholas Kopiwoda & Matt C.
+api-version: 1.16
+softdepend: [Vault, PlaceholderAPI, Citizens]
+commands:
+  bg:
+    description: All commands for the BoardGames plugin.
+    aliases: [bg]
